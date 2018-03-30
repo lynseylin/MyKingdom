@@ -87,6 +87,11 @@
 	$(function () {
 		'use strict'
 
+		$(document).ready(function() {
+		    $('.imk-header').load('common/header.html');
+//		$('.footer').load('topic-footer.html');
+		});
+
         // 手机菜单
 		var rootDom = $('.imk-root');
 		$('#imk-menu-toggle').on('click',function () {
